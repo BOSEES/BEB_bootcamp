@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #4a4a4a;
+}
+
+header, footer {
+  font-size: large; /*폰트의 사이즈에 접근 하기 위한 속성*/
+  text-align: center; /*텍스트의 가운데를 정렬하기 위한 속성*/
+  padding: 0.3em 0; /*컨텐츠의 패딩 값에 접근할 수 있는 속성*/
+  background-color: #4a4a4a; /*배경색을 바꾸기 위한 속성 (컬러만 가능)*/
+  color: #f9f9f9; /*폰트의 색상을 바꾸기 위한 속성*/
+
+}
+
+nav {
+  background: #eee; /*배경을 바꾸기 위한 속성(컬러뿐만 아니라 이미지도 가능
+                      그 이외의 다양한 옵션이 존제함)*/
+}
+
+main {
+  background: #f9f9f9;
+}
+
+aside {
+  background: #eee;
+}
+
+
+/* em과 px 차이 */
+/* 화면 픽셀단위. 해당도에따라 다르다. */
+/* em은 이 단위가 적용된 엘리먼트의 글자크기에 비례한다. 만약 적용이 안되어있다면
+부모의 폰트사이즈를 기준으로 변한다.*/
+/* rem은 HTML을 대상으로 비례함. */
